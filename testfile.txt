@@ -1,0 +1,9 @@
+A test file to add
+with following content
+echo "# devops_prac" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/curious08/devops_prac.git
+git push -u origin main
